@@ -2,6 +2,7 @@
         height: 100%;
         padding: 0;
         margin: 0;
+        font-family: Avant Garde,Avantgarde;
       }
  
       #map {
@@ -28,6 +29,7 @@
         color: #444;
         cursor: auto;
         list-style: none;
+        font-family: Avant Garde,Avantgarde;
       }
  
       #layer_selector li:hover {
@@ -43,9 +45,8 @@
       .footer h1 {
           font-weight: 400;
           line-height: 1;
-          text-transform: uppercase;
           font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-          color: white;
+          color: black;
           font-size: 200%;
           margin-top: 2px;
       } 
@@ -57,9 +58,21 @@
 
       .footer img{
         width: 100%;
-        height: auto%;
       }
 
+      .col-md-4.hashtag {
+        margin-top: 60px;
+      }
+
+      .col-md-4.info {
+        margin-top:20px;
+      }
+
+      .col-md-4.info img{
+        width:70%;
+        margin-left:15%;
+      }
+      
       .button{
         vertical-align: baseline;
         width: 200px;
@@ -81,14 +94,29 @@
         color: #FFFFFF;
       }
 
+      .footer-info img {
+        width: 75%;
+        margin-top:5px;
+
+      }
+
+      .footer-info {
+        margin-top:20px;
+        background-color: #ebebeb;
+        min-height: 10%
+
+      }
+
       .btn-success{ 
         background-color: #1b6724;
         border-color: #fff;
         color: white;
        }
 
-       .btn-group-vertical{
-        margin-top:30px;
+       .btn-group-justified{
+          width: 50%;
+          margin-left: 25%;
+          margin-bottom:20px;
        }
 
       .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
