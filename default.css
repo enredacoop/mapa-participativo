@@ -6,7 +6,7 @@
       }
  
       #map {
-        min-height: 75%;
+        min-height: 65%;
       }
 
       #layer_selector {
@@ -56,12 +56,10 @@
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
       }
 
-      .footer img{
-        width: 100%;
-      }
-
+   
       .col-md-4.hashtag {
         margin-top: 60px;
+
       }
 
       .col-md-4.info {
@@ -89,30 +87,57 @@
       } 
 
       .footer{
+
         background-color: #ebebeb;
-        min-height: 150px;
+        
         color: #FFFFFF;
+        position: fixed;
       }
 
-      .footer-info img {
-        width: 75%;
+      .footer .info img {
+        width: 50%;
         margin-top:5px;
-
+      
       }
-
+       .footer .info .btn-group {
+       	  
+       	   margin-top: 10px;
+       	   padding: 10px;
+       }
+       .footer .person img {
+       	width: 80%;
+       }
       .footer-info {
         margin-top:20px;
         background-color: #ebebeb;
         min-height: 10%
 
       }
+      .footer .participa{
+      	padding-top: 10px;
+      	border-top: 1px solid #DDD;
+     	}
+     	 .footer .rrss {
+     	 	margin-top: 10px;
+     	 }
+       .footer .participa p {
+       	color: #333;
+       }
+      .footer .hashtag {
+      	 margin-top:80px;
 
+      }
+      .footer .hashtag img {
+      	 width: 70%;
+      }
       .btn-success{ 
         background-color: #1b6724;
         border-color: #fff;
         color: white;
        }
-
+       .footer .rrss img {
+       	width: 80%;
+       }
        .btn-group-justified{
           width: 50%;
           margin-left: 25%;
