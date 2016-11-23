@@ -6,7 +6,7 @@
       }
  
       #map {
-        min-height: 65%;
+        min-height: 70%;
       }
 
       #layer_selector {
@@ -95,7 +95,7 @@
       }
 
       .footer .info img {
-        width: 50%;
+        width: 40%;
         margin-top:5px;
       
       }
@@ -105,7 +105,7 @@
        	   padding: 10px;
        }
        .footer .person img {
-       	width: 80%;
+       	width: 70%;
        }
       .footer-info {
         margin-top:20px;
