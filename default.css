@@ -94,6 +94,11 @@
         position: fixed;
       }
 
+      .footer-info{
+                background-color: #ebebeb;
+
+      }
+
       .footer .info img {
         width: 40%;
         margin-top:5px;
@@ -107,12 +112,7 @@
        .footer .person img {
        	width: 70%;
        }
-      .footer-info {
-        margin-top:20px;
-        background-color: #ebebeb;
-        min-height: 10%
-
-      }
+     
       .footer .participa{
       	padding-top: 10px;
       	border-top: 1px solid #DDD;
@@ -120,6 +120,10 @@
      	 .footer .rrss {
      	 	margin-top: 10px;
      	 }
+
+       .footer-info .rrss {
+        margin-top: 10px;
+       }
        .footer .participa p {
        	color: #333;
        }
@@ -137,6 +141,10 @@
        }
        .footer .rrss img {
        	width: 80%;
+       }
+
+       .footer-info .rrss img {
+        width: 80%;
        }
        .btn-group-justified{
           width: 50%;
