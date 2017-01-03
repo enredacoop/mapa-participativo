@@ -6,7 +6,7 @@
       }
  
       #map {
-        min-height: 70%;
+        min-height: 75%;
       }
 
       #layer_selector {
@@ -100,7 +100,7 @@
       }
 
       .footer .info img {
-        width: 40%;
+        width: 50%;
         margin-top:5px;
       
       }
@@ -110,7 +110,7 @@
        	   padding: 10px;
        }
        .footer .person img {
-       	width: 70%;
+       	width: 80%;
        }
      
       .footer .participa{
