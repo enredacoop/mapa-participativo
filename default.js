@@ -18,8 +18,7 @@ function createSelector(layers) {
         layers.getSubLayer(3).hide();
         layers.getSubLayer(4).hide();
         layers.getSubLayer(5).hide();
-        layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).hide();        
+        layers.getSubLayer(6).hide();        
       }else if (layer == 'ind2'){
         layers.getSubLayer(0).hide(); 
         layers.getSubLayer(1).hide(); 
@@ -27,8 +26,7 @@ function createSelector(layers) {
         layers.getSubLayer(3).hide();
         layers.getSubLayer(4).hide();
         layers.getSubLayer(5).hide();
-        layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).hide(); 
+        layers.getSubLayer(6).hide(); 
       }else if (layer == 'ind3'){
         layers.getSubLayer(0).hide(); 
         layers.getSubLayer(1).hide(); 
@@ -36,8 +34,7 @@ function createSelector(layers) {
         layers.getSubLayer(3).show();
         layers.getSubLayer(4).hide();
         layers.getSubLayer(5).hide();
-        layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).hide(); 
+        layers.getSubLayer(6).hide(); 
       }else if (layer == 'ind4'){
         layers.getSubLayer(0).hide(); 
         layers.getSubLayer(1).hide(); 
@@ -45,8 +42,7 @@ function createSelector(layers) {
         layers.getSubLayer(3).hide();
         layers.getSubLayer(4).show();
         layers.getSubLayer(5).hide();
-        layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).hide(); 
+        layers.getSubLayer(6).hide(); 
       }else if (layer == 'ind5'){
         layers.getSubLayer(0).hide(); 
         layers.getSubLayer(1).hide(); 
@@ -54,8 +50,7 @@ function createSelector(layers) {
         layers.getSubLayer(3).hide();
         layers.getSubLayer(4).hide();
         layers.getSubLayer(5).show();
-        layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).hide(); 
+        layers.getSubLayer(6).hide(); 
       }else if (layer == 'ind6'){
         layers.getSubLayer(0).hide(); 
         layers.getSubLayer(1).hide(); 
@@ -63,18 +58,8 @@ function createSelector(layers) {
         layers.getSubLayer(3).hide();
         layers.getSubLayer(4).hide();
         layers.getSubLayer(5).hide();
-        layers.getSubLayer(6).show();
-        layers.getSubLayer(7).hide(); 
-      }else if (layer == 'ind7'){
-        layers.getSubLayer(0).hide(); 
-        layers.getSubLayer(1).hide(); 
-        layers.getSubLayer(2).hide();
-        layers.getSubLayer(3).hide();
-        layers.getSubLayer(4).hide();
-        layers.getSubLayer(5).hide();
-        layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).show(); 
-      }else {
+        layers.getSubLayer(6).show(); 
+      }else{
         layers.getSubLayer(0).show(); 
         layers.getSubLayer(1).hide(); 
         layers.getSubLayer(2).hide();
@@ -82,7 +67,6 @@ function createSelector(layers) {
         layers.getSubLayer(4).hide();
         layers.getSubLayer(5).hide();
         layers.getSubLayer(6).hide();
-        layers.getSubLayer(7).hide(); 
       }
     }
   });
@@ -104,7 +88,7 @@ function main() {
   L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr}).addTo(map);
 
   //cartodb.createLayer(map, 'https://enreda.carto.com/api/v2/viz/1b9016e2-848f-11e6-880e-0e3ff518bd15/viz.json')
-  cartodb.createLayer(map, 'https://enreda.carto.com/api/v2/viz/38d7491e-9605-11e6-b5a5-0ecd1babdde5/viz.json')
+  cartodb.createLayer(map, 'https://enreda.carto.com/api/v2/viz/d85d1cac-dbce-11e6-b311-0e233c30368f/viz.json')
   .addTo(map)              
   .done(function(layers) {
     createSelector(layers);
