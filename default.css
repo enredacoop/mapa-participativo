@@ -235,3 +235,17 @@ div.cartodb-popup.v2.header.blue a.cartodb-popup-close-button {
   }
 
 }
+
+@media (max-width: 767px) {
+  .footer .info img {
+    width: 85%;
+  }
+
+ .visible-xs {
+  width: 20% !important;
+  float: right;
+  margin-top: -10%;
+  margin-right: -5%
+}
+
+}
