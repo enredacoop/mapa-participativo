@@ -226,6 +226,11 @@ div.cartodb-popup.v2.header.blue div.cartodb-popup-header {
 div.cartodb-popup.v2.header.blue a.cartodb-popup-close-button {
   z-index: 150;
 }
+
+div.cartodb-popup.v2 div.cartodb-popup-content p, div.cartodb-popup.v2 div.cartodb-popup-content h4 {
+  color: #3b3b3b;
+}
+
 @media (max-width: 1200px){
   .footer .participa p {
     font-size:0.6em;
